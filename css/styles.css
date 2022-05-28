@@ -100,6 +100,44 @@ button {
   height: auto;
 }
 
+.show {
+  display: block;
+}
+
+.notShow {
+  display: none;
+}
+
+.hamburger-menu {
+  display: none;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 2000000;
+}
+.ham-line {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: lime;
+}
+
+.nav-menu-mobile {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  /* margin-top: -15%; */
+  background-color: #000;
+  padding-top: 30vh;
+  padding-bottom: 25vh;
+  z-index: 7000;
+}
+
+.nav-menu-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .nav-bar {
     padding-left: 6rem;
@@ -122,5 +160,30 @@ button {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    /* width: 100%;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    background-color: white; */
+    display: none;
+  }
+
+  .nav-bar {
+    top: 0%;
+  }
+  .nav-change {
+    transform: translate(0%);
+  }
+  .hamburger-menu {
+    display: block;
+  }
+
+  .notShow {
+    display: block;
+  }
+  .show {
+    display: none;
+  }
 }
