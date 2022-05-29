@@ -5,11 +5,9 @@ const handleHamburgerMenuButton = () => {
   if (hamburgeMenuDiv.classList.contains("notShow")) {
     hamburgeMenuDiv.classList.remove("notShow");
     hamburgeMenuDiv.classList.add("show");
-    // hamLines.forEach((hamLine) => (hamLine.style.backgroundColor = "#ffc744"));
   } else {
     hamburgeMenuDiv.classList.remove("show");
     hamburgeMenuDiv.classList.add("notShow");
-    // hamLines.forEach((hamLine) => (hamLine.style.backgroundColor = "#ff0000"));
   }
 
   console.log("ndfdsnmndmfnmsd");
@@ -23,7 +21,3 @@ window.addEventListener("resize", function () {
 });
 
 hamburgeMenuDiv.addEventListener("click", handleHamburgerMenuButton);
-
-// let changeHamburgerIcon = function (icon) {
-//   icon.classList.toggle;
-// };
