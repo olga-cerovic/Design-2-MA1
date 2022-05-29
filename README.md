@@ -31,6 +31,10 @@ Can explain his/her choices of tools for working with simple visual design, imag
 Can explain his/her choices for using proprietary visual materials in own projects
 Can find background information about different fonts, color compositions and assess its relevance for developing user-oriented solutions and services for the web and mobile devices
 Can explain his/her choice and use of font, color, imagery and graphics in the development of user-oriented solutions and services for the web and mobile devices
+
+**************************************************************
+
 Submission
+
 Upload the homepage and submit the URL
 Include a report to be submitted as a PDF
