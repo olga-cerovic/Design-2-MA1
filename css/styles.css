@@ -94,13 +94,9 @@ li {
   position: absolute;
   top: 40%;
   right: 8%;
-  /* transform: translate(-50%, -50%); */
   text-align: center;
   background-color: var(--link-text-color);
   padding: 3rem 6rem 3rem 6rem;
-  /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
 }
 
 .explore-btn {
@@ -149,7 +145,6 @@ li {
 .home-decor {
   padding-top: 0;
   padding-bottom: 0.5rem;
-  /* padding-top: 3rem; */
   background: repeating-linear-gradient(
     45deg,
     #feffe3,
@@ -203,34 +198,13 @@ li {
   background-color: var(--link-text-color);
 }
 
-/* background: repeating-linear-gradient(
-    45deg,
-    #feffe3,
-    #feffe3 10px,
-    #edecdf 10px,
-    #edecdf 20px
-  );
-  padding-bottom: 3rem;
-  padding-top: 3rem; */
-/* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  padding: 3rem 5rem; */
-/* justify-content: center; */
-/* 
-
-  width: 100%; */
-/* padding-bottom: 3rem;
-} */
-
 .nav-menu-mobile {
   position: absolute;
-  /* display: flex; */
   width: 100%;
   margin-top: 8%;
   background-color: #000;
   padding-top: 15vh;
   padding-bottom: 15vh;
-  /* z-index: 7000; */
   right: 0;
 }
 
@@ -272,8 +246,6 @@ li {
 
 .follow-us,
 .payment-options {
-  /* margin-bottom: 15px;
-  margin-right: 30px; */
   display: flex;
   flex-direction: row;
   font-size: 2em;
@@ -316,56 +288,6 @@ i {
   }
 }
 
-@media screen and (max-width: 920px) {
-  .insta-item img {
-    width: 120px;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .insta-item img {
-    width: 100px;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .insta-item img {
-    width: 40px;
-    height: 100%;
-  }
-  .insta-7,
-  .insta-8,
-  .insta-9,
-  .insta-10,
-  .insta-11,
-  .insta-12 {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .insta-11,
-  .insta-12 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .insta-11,
-  .insta-12 {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .insta-item img {
-    width: 80px;
-    height: 100%;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .nav-bar {
     padding-left: 6rem;
@@ -374,12 +296,6 @@ i {
 
   .content-left {
     right: 35%;
-    /* transform: translate(-60%, 150%);
-    width: 400px; */
-    /* padding: 3rem 6rem 3rem 6rem; */
-    /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
   }
 
   li {
@@ -394,12 +310,6 @@ i {
 @media screen and (max-width: 1050px) {
   .content-left {
     right: 30%;
-    /* transform: translate(-50%, 150%);
-    width: 400px; */
-    /* padding: 3rem 6rem 3rem 6rem; */
-    /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
   }
 
   h1 {
@@ -416,10 +326,6 @@ i {
   li {
     margin-left: 2rem;
   }
-
-  /* .content-left {
-    transform: translate(-45%, 150%);
-  } */
 
   .content-left h3 {
     font-size: 0.9rem;
@@ -450,18 +356,11 @@ i {
 }
 
 @media screen and (max-width: 920px) {
-  .content-left {
-    /* top: 40%; */
-    /* right: 8%; */
-    /* transform: translate(-35%, 150%); */
+  .insta-item img {
+    width: 120px;
+    height: 100%;
   }
 }
-
-/* @media screen and (max-width: 820px) {
-  .content-left {
-    transform: translate(-30%, 150%);
-  }
-} */
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -483,10 +382,13 @@ i {
   .show {
     display: none;
   }
+}
 
-  /* .content-left {
-    right: 40%;
-  } */
+@media screen and (max-width: 740px) {
+  .insta-item img {
+    width: 100px;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -495,107 +397,6 @@ i {
   }
   .content-left {
     right: 25%;
-  }
-}
-
-/* @media screen and (max-width: 700px) {
-  .content-left {
-    transform: translate(-20%, 150%);
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .content-left {
-    transform: translate(-15%, 150%);
-  }
-}
-
-
-
-@media screen and (max-width: 580px) {
-  .content-left {
-    transform: translate(-8%, 150%);
-  }
-} */
-
-/* @media screen and (max-width: 550px) {
-  .content-left {
-    transform: translate(-6%, 150%);
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .content-left {
-    transform: translate(-3%, 150%);
-  }
-} */
-
-/* @media screen and (max-width: 510px) {
-  .content-left {
-    transform: translate(-1%, 150%);
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .content-left {
-    transform: translate(-9%, 220%);
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    width: 330px;
-  }
-} */
-
-/* @media screen and (max-width: 480px) {
-  .content-left {
-    transform: translate(-7%, 220%);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .content-left {
-    transform: translate(-5%, 220%);
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .content-left {
-    transform: translate(-2%, 220%);
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .content-left {
-    transform: translate(0%, 220%);
-  }
-}
-
-@media screen and (max-width: 395px) {
-  .content-left {
-    width: 300px;
-    transform: translate(-1%, 220%);
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .content-left {
-    width: 280px;
-    transform: translate(-1%, 220%);
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .content-left {
-    width: 300px;
-    transform: translate(3%, 220%);
-  }
-} */
-
-@media screen and (max-width: 620px) {
-  .content-left {
-    right: 0;
-    width: 100%;
   }
 }
 
@@ -618,14 +419,41 @@ i {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .content-left {
+    right: 0;
+    width: 100%;
+  }
+  .insta-7,
+  .insta-8,
+  .insta-9,
+  .insta-10 {
+    display: block;
+  }
+}
+
 @media (max-width: 520px) {
   .nav-menu-mobile {
     margin-top: 9%;
+  }
+
+  .insta-9,
+  .insta-10 {
+    display: none;
   }
 }
 
 @media (max-width: 450px) {
   .nav-menu-mobile {
     margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .insta-9,
+  .insta-10,
+  .insta-11,
+  .insta-12 {
+    display: block;
   }
 }
