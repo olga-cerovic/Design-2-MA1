@@ -1,6 +1,6 @@
 :root {
-  --link-text-color: #feffe3;
-  --document-background-color: #edecdf;
+  --link-text-color: #f9f5f0;
+  --document-background-color: #fffcf7;
 }
 
 * {
@@ -147,10 +147,10 @@ li {
   padding-bottom: 0.5rem;
   background: repeating-linear-gradient(
     45deg,
-    #feffe3,
-    #feffe3 10px,
-    #edecdf 10px,
-    #edecdf 20px
+    #f9f5f0,
+    #f9f5f0 10px,
+    #fffcf7 10px,
+    #fffcf7 20px
   );
   width: 100%;
 }
